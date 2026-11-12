@@ -1,0 +1,21 @@
+{
+    "schema": 1,
+    "name": "Cute Anime Girl",
+    "author": "Elixer-khafan",
+    "description": "",
+    "version": "1.0.0",
+    "configVersion": 31,
+    "config": "config.json",
+    "screenshots": [
+        "screenshots/1-aafc6307.png"
+    ],
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2026-11-12",
+            "notes": "First release."
+        }
+    ],
+    "wallpaper": "wallpaper.webp",
+    "banner": "banner.jpg"
+}

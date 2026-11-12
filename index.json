@@ -1,0 +1,19 @@
+{
+    "schema": 1,
+    "author": "Elixer-khafan",
+    "presets": [
+        {
+            "id": "cute-anime-girl",
+            "name": "Cute Anime Girl",
+            "description": "",
+            "version": "1.0.0",
+            "configVersion": 31,
+            "path": "presets/cute-anime-girl",
+            "wallpaper": "presets/cute-anime-girl/wallpaper.webp",
+            "banner": "presets/cute-anime-girl/banner.jpg",
+            "screenshots": [
+                "presets/cute-anime-girl/screenshots/1-aafc6307.png"
+            ]
+        }
+    ]
+}

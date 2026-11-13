@@ -19,7 +19,7 @@
             "mode": "live",
             "newOptimizations": true,
             "noise": 0.05,
-            "opaqueWindows": false,
+            "opaqueWindows": true,
             "passes": 3,
             "popups": false,
             "popupsIgnoreAlpha": 0.6,
@@ -59,7 +59,7 @@
             "iiPack": {
                 "glyphScale": 1,
                 "plateScale": 1,
-                "shape": "circle",
+                "shape": "squircle",
                 "source": ""
             },
             "shapeMask": "Circle"
@@ -76,10 +76,10 @@
             "accentColor": "",
             "overrides": {
                 "dark": {
-                    "primary": "",
+                    "primary": "#6CBFCD",
                     "secondary": "",
                     "surface": "",
-                    "tertiary": ""
+                    "tertiary": "#2AC5FF"
                 },
                 "light": {
                     "primary": "",
@@ -99,7 +99,7 @@
         "toggleWindowRounding": true,
         "transparency": {
             "automatic": false,
-            "backgroundTransparency": 0.46,
+            "backgroundTransparency": 0.54,
             "contentTransparency": 0.46,
             "enable": true,
             "popups": true
@@ -140,21 +140,23 @@
         "activeWidgets": [
             {
                 "id": "widget_clock_type_width_1794462028645",
-                "lockBehavior": "hide",
+                "lockBehavior": "center",
+                "pinned": true,
                 "placementStrategy": "free",
                 "positions": {
                     "HDMI-A-1": {
-                        "x": 90,
-                        "y": 520
+                        "x": 70,
+                        "y": 569.5866171052461
                     }
                 },
                 "widgetId": "clock_type_width",
-                "x": 90,
-                "y": 520
+                "x": 70,
+                "y": 569.5866171052461
             },
             {
                 "id": "widget_media_cover_1794462171723",
                 "lockBehavior": "hide",
+                "pinned": true,
                 "placementStrategy": "free",
                 "positions": {
                     "HDMI-A-1": {
@@ -169,6 +171,7 @@
             {
                 "id": "widget_resource_tiles_1794462266291",
                 "lockBehavior": "hide",
+                "pinned": true,
                 "placementStrategy": "free",
                 "positions": {
                     "HDMI-A-1": {
@@ -181,22 +184,9 @@
                 "y": 616.5553671052461
             },
             {
-                "id": "widget_todo_focus_1794462374772",
-                "lockBehavior": "hide",
-                "placementStrategy": "free",
-                "positions": {
-                    "HDMI-A-1": {
-                        "x": 130,
-                        "y": 80
-                    }
-                },
-                "widgetId": "todo_focus",
-                "x": 130,
-                "y": 80
-            },
-            {
                 "id": "widget_water_glass_1794462380501",
                 "lockBehavior": "hide",
+                "pinned": true,
                 "placementStrategy": "free",
                 "positions": {
                     "HDMI-A-1": {
@@ -207,6 +197,20 @@
                 "widgetId": "water_glass",
                 "x": 656.8716032438099,
                 "y": 617.5866171052461
+            },
+            {
+                "id": "widget_todo_column_1794489611050",
+                "lockBehavior": "hide",
+                "placementStrategy": "free",
+                "positions": {
+                    "HDMI-A-1": {
+                        "x": 70,
+                        "y": 90
+                    }
+                },
+                "widgetId": "todo_column",
+                "x": 70,
+                "y": 90
             }
         ],
         "animateWallpaperChanges": true,
@@ -214,7 +218,7 @@
         "blurWhenWindowsOpen": false,
         "blurWhenWindowsOpenRadius": 70,
         "centeredBackground": "#000000",
-        "cheatsheetZoomOut": true,
+        "cheatsheetZoomOut": false,
         "desktopIconScale": 1.5,
         "desktopIcons": {
             "autoArrange": false,
@@ -293,18 +297,18 @@
         },
         "monitorWallpapers": [],
         "overviewBackgroundStyle": "real-gnome",
-        "overviewZoomOut": true,
+        "overviewZoomOut": false,
         "parallax": {
             "autoVertical": false,
-            "enableSidebar": true,
+            "enableSidebar": false,
             "enableWorkspace": false,
             "intensity": 4,
             "invertHorizontal": false,
             "invertVertical": false,
-            "loop": true,
+            "loop": false,
             "vertical": false,
             "widgetsFactor": 1.2,
-            "workspaceZoom": 1.05
+            "workspaceZoom": 1
         },
         "realGnomeAllMonitors": false,
         "referenceResolution": {
@@ -326,7 +330,7 @@
         "wallpaperAnimation": "magic",
         "wallpaperEngineAssetsPath": "",
         "wallpaperEngineId": "",
-        "wallpaperPath": "$HOME/Pictures/Wallpapers/anime-girl-at-school.webp",
+        "wallpaperPath": "$HOME/.config/illogical-impulse/presets/Cute Anime Girl.webp",
         "widgets": {
             "ai_chat": {
                 "enable": false,
@@ -1227,7 +1231,7 @@
                     "ram",
                     "disk"
                 ],
-                "orientation": "horizontal",
+                "orientation": "vertical",
                 "placementStrategy": "free",
                 "showLabels": true,
                 "widgetSize": 100,
@@ -1424,7 +1428,7 @@
             "todo_board": {
                 "enable": false,
                 "placementStrategy": "free",
-                "widgetSize": 100,
+                "widgetSize": 110,
                 "x": 400,
                 "y": 120
             },
@@ -1432,7 +1436,7 @@
                 "enable": false,
                 "placementStrategy": "free",
                 "showProgress": true,
-                "widgetSize": 100,
+                "widgetSize": 80,
                 "x": 400,
                 "y": 120
             },
@@ -1696,8 +1700,8 @@
                 "y": 200
             }
         },
-        "windowZoomLiveCapture": true,
-        "windowZoomOnOverview": true,
+        "windowZoomLiveCapture": false,
+        "windowZoomOnOverview": false,
         "workspaceBlur": false,
         "wpeDisableMouse": false,
         "wpeDisableParallax": false,
@@ -1710,8 +1714,8 @@
         "wpeScreenSpan": "",
         "wpeSilent": true,
         "wpeVolume": 50,
-        "zoomOutEnabled": true,
-        "zoomOutStyle": 0
+        "zoomOutEnabled": false,
+        "zoomOutStyle": 1
     },
     "bar": {
         "activeWindow": {
@@ -3007,8 +3011,8 @@
             "defaultSourceLanguage": "auto",
             "defaultTargetLanguage": "auto",
             "engine": "auto",
-            "sourceLanguage": "auto",
-            "targetLanguage": "\u0641\u0627\u0631\u0633\u06cc"
+            "sourceLanguage": "\u0641\u0627\u0631\u0633\u06cc",
+            "targetLanguage": "en"
         },
         "ui": "en_US"
     },
@@ -3019,7 +3023,7 @@
             "cmake-gui"
         ],
         "typeToSearch": {
-            "enable": true,
+            "enable": false,
             "keys": "all",
             "trigger": "emptyWorkspace"
         }
@@ -3064,17 +3068,17 @@
         "blur": {
             "enable": true,
             "extraZoom": 1,
-            "radius": 45
+            "radius": 30
         },
         "centerAlignment": "horizontal",
         "centerSpacing": 20,
         "colorWash": {
-            "amount": 0.05,
+            "amount": 0.35,
             "enable": false
         },
         "desaturate": {
-            "amount": 0.05,
-            "enable": false
+            "amount": 0.8,
+            "enable": true
         },
         "islands": {
             "hidden": [],
@@ -3132,12 +3136,12 @@
         "showWeather": true,
         "sports": true,
         "touchKeyboard": {
-            "mode": "text",
+            "mode": "pin",
             "show": "auto"
         },
         "useHyprlock": false,
         "vignette": {
-            "amount": 0.3,
+            "amount": 0.5,
             "enable": true
         },
         "zoomAnimation": {
@@ -3153,7 +3157,7 @@
         "enableLrcmux": true,
         "enableNetease": true,
         "enableYtmusic": true,
-        "lyricsProvider": "ytmusic"
+        "lyricsProvider": "auto"
     },
     "media": {
         "albumArtBlurAnimations": true,
@@ -3209,7 +3213,7 @@
     },
     "oledSaver": {
         "antiBurnIn": false,
-        "clockStyle": "dial",
+        "clockStyle": "widgets",
         "cursorHideDelay": 5,
         "enable": true,
         "lockTimeout": 10
@@ -3386,7 +3390,7 @@
         "scrollingStyle": {
             "zoomStyle": "out"
         },
-        "showIcons": true,
+        "showIcons": false,
         "showOpeningAnimation": true,
         "showWindowPreviews": true,
         "showWorkspacesOverview": false,
@@ -3612,7 +3616,7 @@
             "textFadeIn": true,
             "thinkingDefault": ""
         },
-        "bannerImage": "$HOME/.config/illogical-impulse/presets/Driveway_banner.jpg",
+        "bannerImage": "$HOME/.config/illogical-impulse/presets/Cute Anime Girl_banner.jpg",
         "booru": {
             "allowNsfw": false,
             "defaultProvider": "yandere",
@@ -3635,7 +3639,7 @@
         },
         "dashboardEntranceAnimations": false,
         "dashboardHeader": {
-            "avatarShape": "Pill",
+            "avatarShape": "Cookie9Sided",
             "buttonsDesign": "circles",
             "customText": "",
             "profileImageType": "user_profile",
@@ -3682,10 +3686,10 @@
                             "type": "bluetooth"
                         },
                         {
-                            "id": "brightnessSlider",
+                            "id": "gammaSlider",
                             "sizeH": 4,
                             "sizeW": 1,
-                            "type": "brightnessSlider"
+                            "type": "gammaSlider"
                         },
                         {
                             "id": "phoneCamera",
@@ -3756,12 +3760,6 @@
                             "type": "micSlider"
                         },
                         {
-                            "id": "gammaSlider",
-                            "sizeH": 5,
-                            "sizeW": 1,
-                            "type": "gammaSlider"
-                        },
-                        {
                             "id": "idleInhibitor",
                             "sizeH": 2,
                             "sizeW": 1,
@@ -3787,19 +3785,17 @@
                         },
                         {
                             "id": "vpn",
-                            "sizeH": 1,
+                            "sizeH": 2,
                             "sizeW": 1,
                             "type": "vpn"
                         },
                         {
                             "id": "easyEffects",
-                            "sizeH": 1,
+                            "sizeH": 2,
                             "sizeW": 1,
                             "type": "easyEffects"
                         }
-                    ],
-                    [],
-                    []
+                    ]
                 ]
             },
             "androidTablet": {
@@ -3826,7 +3822,7 @@
             "style": "android",
             "useThreeWaySliders": true
         },
-        "sidebarStyle": "default",
+        "sidebarStyle": "connect",
         "tabletShade": {
             "edgeDragHeight": 8,
             "liveBackdrop": false
@@ -4084,14 +4080,14 @@
     },
     "userProfile": {
         "avatarColor": "primary",
-        "avatarShape": "Oval",
+        "avatarShape": "Cookie9Sided",
         "imageStyle": "custom"
     },
     "vpn": {
         "autoConnect": false,
         "backend": "networkmanager",
         "blockLan": false,
-        "defaultProvider": "nordvpn",
+        "defaultProvider": "networkmanager",
         "disconnectOnDisable": false,
         "enableDiagnostics": true,
         "enabled": true,

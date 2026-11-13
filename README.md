@@ -4,7 +4,7 @@ Community presets collection for [Illogical Impulse](https://github.com/vaxerski
 
 ## Available Presets
 
-- **Cute Anime Girl** (`cute-anime-girl`, v1.0.0)
+- **Cute Anime Girl** (`cute-anime-girl`, v1.0.1)
 
 ## How to Install
 
